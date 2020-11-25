@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box !important;
+  height: 100%;
+  font-size: 62.5% !important; 
+}
+
+body {
+  background-color: #0D1A26 !important;
+}
+
+.center-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.ml-10 {
+  margin-left: 8rem !important;
+}
+
+.mt-10 {
+  margin-top: 8rem !important;
+}
+.mt-8 {
+  margin-top: 6rem !important;
+}
+
+.text-black {
+  color: black !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background-color: transparent !important;
+  -webkit-box-shadow: none !important;
+  transition: background-color 500000s ease-in-out 0s !important;
+}
